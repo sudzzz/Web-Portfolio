@@ -1,6 +1,6 @@
 # Web-Portfolio
 
-My online Resume.
+My Online Resume.
 
 # How To Run
 
