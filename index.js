@@ -29,7 +29,7 @@ axios.get(getIP).then(response=>{
     const cityName = response.data.city;
     console.log(cityName);
     const unit = "metric";
-    const apiKey = "0728c411e8de2c74f24c536066d40d1d";
+    const apiKey = "Your_Api_Key";
     const url = "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&units="+unit+"&appid="+apiKey;
     axios.get(url).then(res=>{
         const temp = res.data.main.temp;
